@@ -4,19 +4,17 @@ import VueRouter from 'vue-router';
 //使用插件
 Vue.use(VueRouter)
 //引入路由组件
-import Home from './router/js/Home'
-import Search from './router/js/Search'
-import Login from './router/js/Login'
-import Register from './router/js/Register'
+import Layout from "../layout/Layout";
 //配置路由
 
 
 const routes = [
-    Home,
-    Search,
-    Login,
-    Register,
+    {
+        path:'/',
+        component:Layout
+    }
 ]
+
 
 
 const router = new VueRouter({
