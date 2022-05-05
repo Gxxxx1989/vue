@@ -1,12 +1,13 @@
-import Home from "../pages/Home";
 
 export default {
-    path: "/",
+    path:"",
     meta: {title: "菜单一"},
     children: [
         {
-            path:"Home",
-            component:Home
+            path: "/Home",
+            component: {
+                default:()=>import("../pages/Home")
+            }
         }
     ]
 

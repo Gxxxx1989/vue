@@ -1,12 +1,12 @@
-import Home from "../pages/Home";
+import Register from "../pages/Register";
 
 export default {
-    path: "/",
+    path: "/menu3",
     meta: {title: "菜单一"},
     children: [
         {
-            path:"Home",
-            component:Home
+            path:"/Register",
+            component:Register
         }
     ]
 
