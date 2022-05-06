@@ -6,6 +6,7 @@
 
     <el-container>
       <el-aside>
+        <router-view/>
         <Aside/>
       </el-aside>
       <el-container>
